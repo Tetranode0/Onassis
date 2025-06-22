@@ -1,5 +1,5 @@
 body, header, section, footer {
-    background-color: black; /* Sets background color to black for all elements */
+    background-color: black; 
     color: white;
     font-family: 'Cormorant Garamond', serif;
     line-height: 1.6;
@@ -24,3 +24,24 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.chapter {
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 40px 0 20px;
+    letter-spacing: 1px;
+    color: #cccccc;
+}
+
+.freud-quote {
+    font-style: italic;
+    padding: 20px;
+    margin: 40px 0;
+    background-color: #111111;
+    border-left: 4px solid #888;
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: center;
+    color: #dddddd;
+}
+
